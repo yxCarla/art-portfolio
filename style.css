@@ -108,4 +108,20 @@ p {
 .w3-white {
     margin-top: 2vh;
 }
+.contactlink {
+    color: blue;
+    text-decoration: underline;
+    
+}
+.title {
+    font-weight: bold;
+    font-style: italic;
+}
+.yearlabel {
+    font-weight: normal;
+    font-style: normal;
+}
+.w3-image:hover {
+    cursor: zoom-in;
+}
 
