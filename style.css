@@ -41,6 +41,7 @@
 }
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(255, 242, 227);
 }
 
 #headings {
@@ -54,6 +55,9 @@ h1, h2, h3, h4 {
     text-align: center;
     
 }
+h1, h2 {
+    color: rgb(51, 48, 221);
+}
 
   
   .topnav #myLinks {
@@ -64,7 +68,7 @@ h1, h2, h3, h4 {
     color: white;
     padding: 15px 16px;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 14px;
     display: block;
     
   }
@@ -87,6 +91,8 @@ h1, h2, h3, h4 {
   }
 
 .sect {
+    margin-top: 5vh;
+    margin-bottom: 3vh;
     border-top: 0.3vh solid black;
 }
 
@@ -94,3 +100,12 @@ p {
     text-align: center;
     font-size: larger;
 }
+
+.head {
+    margin-top: 5vh;
+}
+
+.w3-white {
+    margin-top: 2vh;
+}
+
