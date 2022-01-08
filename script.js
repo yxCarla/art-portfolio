@@ -6,3 +6,12 @@ function openNav() {
       links.style.display = "block";
     }
   }
+
+function closeNav() {
+  var links = document.getElementById("myLinks");
+    if (links.style.display === "none") {
+      links.style.display = "block";
+    } else {
+      links.style.display = "none";
+    }
+}
