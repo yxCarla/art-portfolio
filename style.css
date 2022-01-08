@@ -53,7 +53,7 @@ body {
 #headings {
     margin-right: auto;
     margin-left: auto;
-    margin-top: 8vh;
+    margin-top: 10vh;
     width: fit-content;
 }
 
@@ -84,11 +84,14 @@ h1, h2 {
     right: 0;
     display: block;
     top: 0;
-    padding: 14.5px 20px;
+    padding: 14px 20px;
 }
+
+
 .topnav a:hover {
     background-color: #ddd;
     color: black;
+    transition: 0.3s;
   }
   
   .active {
@@ -133,5 +136,6 @@ p {
 .w3-image:hover {
     cursor: zoom-in;
 }
+
 
 

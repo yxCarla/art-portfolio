@@ -17,10 +17,9 @@
         <script src="script.js" defer></script>
     </head>
     <body>
-        <!--> THIS IS THE NAV STUFF-->
-        <div class="topnav" style="font-family: 'Arima Madurai';">
+        <div class="topnav" style="font-family: 'Arima Madurai';" >
             <div class="w3-top">
-                <div class="w3-bar w3-indigo w3-card">
+                <div class="w3-bar w3-indigo w3-card" >
                 
                     <a href="#" class="w3-bar-item w3-button w3-padding-large" style="font-size: 16px;">HOME</a>
                     
@@ -33,7 +32,8 @@
                     <a href="#cont-6" class="w3-bar-item w3-button w3-padding-large w3-hide-small" style="font-size: 16px;"><span class="hideSmall">2018</span></a>
                     <a href="#cont-7" class="w3-bar-item w3-button w3-padding-large w3-hide-small"style="font-size: 16px;"><span class="hideSmall">2017</span></a>
                     <a href="#cont-8" class="w3-bar-item w3-button w3-padding-large w3-hide-small"style="font-size: 16px;"><span class="hideSmall">2016</span></a>
-                    <div id="myLinks" class="w3-indigo">
+                    <a href="#cont-10" class="w3-bar-item w3-button w3-padding-large w3-hide-small"style="font-size: 16px;"><span class="hideSmall">2015</span></a>
+                    <div id="myLinks" class="w3-indigo"   onmouseleave="closeNav()">
                         <a href="#wip" class="navlink" style="margin-top: 6.8vh;">WIPS</a>
                         <a href="#cont-1" class="navlink">PINNED</a>
                         <a href="#cont-9" class="navlink">INFO</a>
@@ -44,21 +44,22 @@
                         <a href="#cont-6" class="navlink">2018</a>
                         <a href="#cont-7" class="navlink">2017</a>
                         <a href="#cont-8" class="navlink">2016</a>
+                        <a href="#cont-10" class="navlink">2015</a>
                     </div>
-                    <a href="javascript:void(0);" class="icon" onclick="openNav()">
+                    <a href="javascript:void(0);" class="icon" onmouseenter="openNav()" >
                         <i class="fa fa-bars"></i>
                     </a>
                 </div>
             </div>
         </div>  
 
-        <!--ACTUAL CONTENT-->
-
         <div id="headings">
             <h1 style="font-weight: bold; font-family: 'Luxurious Roman';">Welcome To Carla's Art Portfolio</h1>
-            <h3 style="width: 60%; margin: 0 auto 0 auto; font-family: 'Unna';">In this site I will have my artwork displayed dating from 2016 to present (2022). Most of these are traditional
+            <h3 style="font-family: 'Unna';">(website built entirely from scratch)</h3>
+            <h3 style="width: 60%; margin: 0 auto 0 auto; font-family: 'Unna';">In this site I will have my artwork displayed dating from 2015 to present (2022). Most of these are traditional
                 graphite on paper, with some digital inclusions. Watermarks are present on all traditional work.
             </h3>
+            <h4 style="margin-top: 2vh;">This website was last updated on 8 January 2022</h4>
             <p id="smallscreens">It looks like you're using a mobile device. Why don't you try out my new <i>navbar</i> located at the top
             of this page (the hamburger icon). Let me know how smooth navigating the site is!</p>
             </p>
@@ -155,7 +156,7 @@
                 <h2 class="head">2020</h2>
                 <h3 style="font-family: 'Unna';">8 posted works; 6 traditional, 2 digital</h3>
                 <div class="w3-container w3-card w3-white col-4">
-                    <img class="w3-image" src="images/2020_2.jpeg" alt="singer">
+                    <img class="w3-image" src="images/2020_2_New.jpg" alt="singer">
                     <p class="title">노래, <span class="yearlabel">2020</span></p>
                     <p><small>Pencil on Paper</small></p>
                     <p><small>completed <b>30 November 2020</b></small></p>
@@ -344,7 +345,7 @@
         <section class="w3-container">
             <div id="cont-8" class="sect">
                 <h2 class="head">2016</h2>
-                <h3 style="font-family: 'Unna';">4 posted works; 4 traditional, 0 digital</h3>
+                <h3 style="font-family: 'Unna';">2 posted works; 2 traditional, 0 digital</h3>
                 <div class="w3-container w3-card w3-white col-6">
                     <img class="w3-image" src="images/2016_4.jpeg" alt="pokemon">
                     <p class="title">Throh, <span class="yearlabel">2016</span></p>
@@ -360,22 +361,32 @@
                     
                     
                 </div>
+                
+            </div>
+        </section>
+        <section class="w3-container">
+            <div id="cont-10" class="sect">
+                <h2 class="head">2015</h2>
+                <h3 style="font-family: 'Unna';">2 posted works; 2 traditional, 0 digital</h3>
                 <div class="w3-container w3-card w3-white col-6">
                     <img class="w3-image" src="images/2016_2.jpeg" alt="stuffed animals">
-                    <p class="title">Stuffed Animals, <span class="yearlabel">2016</span></p>
+                    <p class="title">Stuffed Animals, <span class="yearlabel">2015</span></p>
                     <p><small>Pencil on Paper</small></p>
-                    <p><small>completed <b>Fall 2016</b></small></p>
+                    <p><small>completed <b>Fall 2015</b></small></p>
                     <p><small>artist's note: also special! was inspired by a teacher to continue drawing</small></p>
                 </div>
                 <div class="w3-container w3-card w3-white col-6">
-                    <img class="w3-image" src="images/2016_1.jpeg" alt="">
-                    <p class="title">Mickey Mouse, <span class="yearlabel">2016</span></p>
+                    <img class="w3-image" src="images/2016_1.jpeg" alt="mickey mouse">
+                    <p class="title">Mickey Mouse, <span class="yearlabel">2015</span></p>
                     <p><small>Pencil, Marker on Paper</small></p>
-                    <p><small>completed <b>Fall 2016</b></small></p>
+                    <p><small>completed <b>Fall 2015</b></small></p>
                     <p><small>artist's note: this first piece is special! it made me get into drawing</small></p>
                 </div>
+                
             </div>
         </section>
+        
+
 
         <section class="w3-container">
             <div id="cont-9" class="sect">
