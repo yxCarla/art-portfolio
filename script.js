@@ -26,11 +26,3 @@ function checkNav() {
     }
 }
 
-function disableRightClick() {
-  var images = document.getElementsByClassName('.w3-card');
-  images.addEventListener('contextmenu', function (e) { 
-    // do something here... 
-    e.preventDefault(); 
-  }, false);
-}
-
