@@ -15,3 +15,22 @@ function closeNav() {
       links.style.display = "none";
     }
 }
+
+function checkNav() {
+  var links = document.getElementById("myLinks");
+    if (links.style.display === "block") {
+      closeNav();
+      //links.style.textDecoration = "none";
+    } else {
+      links.style.display = "none";
+    }
+}
+
+function disableRightClick() {
+  var images = document.getElementsByClassName('.w3-card');
+  images.addEventListener('contextmenu', function (e) { 
+    // do something here... 
+    e.preventDefault(); 
+  }, false);
+}
+

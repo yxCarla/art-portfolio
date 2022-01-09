@@ -7,6 +7,7 @@
         <meta name="author" content="yxCarla">
         <title>Carla's Art Portfolio</title>
         <link href="style.css" rel="stylesheet">
+        <link href="smallstyle.css" rel="stylesheet" media="screen and (max-width: 950px)">
         <link href="https://www.w3schools.com/w3css/4/w3.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -16,7 +17,7 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
         <script src="script.js" defer></script>
     </head>
-    <body>
+    <body onscroll="checkNav()">
         <div class="topnav" style="font-family: 'Arima Madurai';" >
             <div class="w3-top">
                 <div class="w3-bar w3-indigo w3-card" >
@@ -33,8 +34,8 @@
                     <a href="#cont-7" class="w3-bar-item w3-button w3-padding-large w3-hide-small"style="font-size: 16px;"><span class="hideSmall">2017</span></a>
                     <a href="#cont-8" class="w3-bar-item w3-button w3-padding-large w3-hide-small"style="font-size: 16px;"><span class="hideSmall">2016</span></a>
                     <a href="#cont-10" class="w3-bar-item w3-button w3-padding-large w3-hide-small"style="font-size: 16px;"><span class="hideSmall">2015</span></a>
-                    <div id="myLinks" class="w3-indigo" onmouseleave="closeNav()">
-                        <a href="#wip" class="navlink" style="margin-top: 6.8vh;">WIPS</a>
+                    <div id="myLinks" class="w3-indigo" onmouseleave="closeNav()" onmouseup="closeNav()">
+                        <a href="#wip" class="navlink" id="wipsSty">WIPS</a>
                         <a href="#cont-1" class="navlink">PINNED</a>
                         <a href="#cont-9" class="navlink">INFO</a>
                         <a href="#cont-2" class="navlink">2022</a>
@@ -46,7 +47,7 @@
                         <a href="#cont-8" class="navlink">2016</a>
                         <a href="#cont-10" class="navlink">2015</a>
                     </div>
-                    <a href="javascript:void(0);" class="icon" onmouseenter="openNav()" >
+                    <a href="javascript:void(0);" class="icon" onmouseenter="openNav()" onmousedown="openNav()">
                         <i class="fa fa-bars"></i>
                     </a>
                 </div>
@@ -59,14 +60,14 @@
             <h3 style="width: 60%; margin: 0 auto 0 auto; font-family: 'Unna';">In this site I will have my artwork displayed dating from 2015 to present (2022). Most of these are traditional
                 graphite on paper, with some digital inclusions. Watermarks are present on all traditional work.
             </h3>
-            <h4 style="margin-top: 2vh;">This website was last updated on 8 January 2022</h4>
+            <h4>This website was last updated on 8 January 2022</h4>
             <p id="smallscreens">It looks like you're using a mobile device. Why don't you try out my new <i>navbar</i> located at the top
             of this page (the hamburger icon). Let me know how smooth navigating the site is!</p>
-            </p>
+            
 
         </div>
         <section class="w3-container">
-            <div id="wip" class="sect">
+            <div id="wip" class="sect" oncontextmenu="return false">
                 <h2 class="head">Works in Progress</h2>
                 
                 <h3 style="font-family: 'Unna';">... there is currently one work in progress ...</h3>
@@ -84,7 +85,7 @@
         </section>
 
         <section class="w3-container">
-            <div id="cont-1" class="sect">
+            <div id="cont-1" class="sect" oncontextmenu="return false">
                 <h2 class="head">Pinned Art</h2>
                 <h3 style="font-family: 'Unna';">... my favorite pieces of all time ...</h3>
                 <div class="w3-container w3-card w3-white col-6">
@@ -108,7 +109,7 @@
         </section>
 
         <section class="w3-container">
-            <div id="cont-2" class="sect">
+            <div id="cont-2" class="sect" oncontextmenu="return false">
                 <h2 class="head">2022</h2>
                 <h3 style="font-family: 'Unna';">
                     sorry, no pieces have been currently uploaded :/ check back later!
@@ -117,7 +118,7 @@
         </section>
 
         <section class="w3-container">
-            <div id="cont-3" class="sect">
+            <div id="cont-3" class="sect" oncontextmenu="return false">
                 <h2 class="head">2021</h2>
                 <h3 style="font-family: 'Unna';">4 posted works; 4 traditional, 0 digital</h3>
                 <div class="w3-container w3-card w3-white col-4">
@@ -152,7 +153,7 @@
         </section>
 
         <section class="w3-container">
-            <div id="cont-4" class="sect">
+            <div id="cont-4" class="sect" oncontextmenu="return false">
                 <h2 class="head">2020</h2>
                 <h3 style="font-family: 'Unna';">8 posted works; 6 traditional, 2 digital</h3>
                 <div class="w3-container w3-card w3-white col-4">
@@ -215,7 +216,7 @@
         </section>
 
         <section class="w3-container">
-            <div id="cont-5" class="sect">
+            <div id="cont-5" class="sect" oncontextmenu="return false">
                 <h2 class="head">2019</h2>
                 <h3 style="font-family: 'Unna';">7 posted works; 7 traditional, 0 digital</h3>
                 <div class="w3-container w3-card w3-white col-4">
@@ -270,7 +271,7 @@
             </div>
         </section>
 
-        <section class="w3-container">
+        <section class="w3-container" oncontextmenu="return false">
             <div id="cont-6" class="sect">
                 <h2 class="head">2018</h2>
                 <h3 style="font-family: 'Unna';">3 posted works; 3 traditional, 0 digital</h3>
@@ -298,7 +299,7 @@
             </div>
         </section>
 
-        <section class="w3-container">
+        <section class="w3-container" oncontextmenu="return false">
             <div id="cont-7" class="sect">
                 <h2 class="head">2017</h2>
                 <h3 style="font-family: 'Unna';">5 posted works; 5 traditional, 0 digital</h3>
@@ -342,7 +343,7 @@
             </div>
         </section>
 
-        <section class="w3-container">
+        <section class="w3-container" oncontextmenu="return false">
             <div id="cont-8" class="sect">
                 <h2 class="head">2016</h2>
                 <h3 style="font-family: 'Unna';">2 posted works; 2 traditional, 0 digital</h3>
@@ -365,7 +366,7 @@
             </div>
         </section>
         <section class="w3-container">
-            <div id="cont-10" class="sect">
+            <div id="cont-10" class="sect" oncontextmenu="return false">
                 <h2 class="head">2015</h2>
                 <h3 style="font-family: 'Unna';">2 posted works; 2 traditional, 0 digital</h3>
                 <div class="w3-container w3-card w3-white col-6">

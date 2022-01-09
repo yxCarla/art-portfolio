@@ -1,0 +1,20 @@
+@media screen and (orientation: landscape) {
+    .hideSmall {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .hideSmall {
+        display: none;
+    }
+}
+
+@media screen and (max-height: 450px) and (orientation: landscape) {
+    .hideSmall {
+        display: none;
+    }
+    #wipsSty {
+        margin-top: 13vh;
+    }
+}
