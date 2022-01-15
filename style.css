@@ -150,8 +150,14 @@ p {
 }
 
 .disableSave {
-    
+    user-select: none;
     -webkit-touch-callout: none;
+    -webkit-user-drag: none;
+    
+
+}
+
+.img {
     pointer-events: none;
 }
 

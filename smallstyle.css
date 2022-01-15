@@ -16,5 +16,9 @@
     }
     #wipsSty {
         margin-top: 13vh;
+        
+    }
+    .navlink {
+        padding: 10px 10px;
     }
 }
