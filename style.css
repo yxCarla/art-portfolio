@@ -151,10 +151,8 @@ p {
 
 .disableSave {
     user-select: none;
-    -webkit-touch-callout: none;
+    -webkit-touch-callout: none; /* measures to prevent mobile saving */
     -webkit-user-drag: none;
-    
-
 }
 
 .img {
