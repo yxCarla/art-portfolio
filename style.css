@@ -80,7 +80,7 @@ h1, h2 {
 
 .navlink {
     color: white;
-    padding: 15px 16px;
+    padding: 13px 14px;
     text-decoration: none;
     font-size: 14px;
     display: block;
@@ -149,5 +149,10 @@ p {
     margin-top: 6.8vh;
 }
 
+.disableSave {
+    
+    -webkit-touch-callout: none;
+    pointer-events: none;
+}
 
 
