@@ -4,13 +4,31 @@
     }
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 950px) {
     .hideSmall {
         display: none;
     }
 }
 
-@media screen and (max-height: 450px) and (orientation: landscape) {
+@media screen and (min-height: 850px) and (orientation: portrait){
+    #wipsSty {
+        margin-top: 6vh;
+    }
+}
+@media screen and (min-height: 1000px) and (orientation: portrait){
+    #wipsSty {
+        margin-top: 4.5vh;
+    }
+}
+
+@media screen and (max-height: 699px) and (orientation: portrait) {
+    .navlink {
+        padding: 14px 13px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-height: 601px) and (orientation: landscape) {
     .hideSmall {
         display: none;
     }
@@ -20,6 +38,6 @@
     }
     .navlink {
         padding: 10px 10px;
-        font-size: 10px;
+        font-size: 8px;
     }
 }
