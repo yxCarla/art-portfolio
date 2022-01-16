@@ -147,6 +147,30 @@ function changeColumns() {
   if(myRange.value == '2') {
     columnSize.classList.add('col-6');
   } 
+  var columnSize = document.getElementById('columnSizing30');
+  if(myRange.value == '2') {
+    columnSize.classList.add('col-6');
+  }
+  var columnSize = document.getElementById('columnSizing31');
+  if(myRange.value == '2') {
+    columnSize.classList.add('col-6');
+  } 
+  var columnSize = document.getElementById('columnSizing32');
+  if(myRange.value == '2') {
+    columnSize.classList.add('col-6');
+  } 
+  var columnSize = document.getElementById('columnSizing34');
+  if(myRange.value == '2') {
+    columnSize.classList.add('col-6');
+  }
+  var columnSize = document.getElementById('columnSizing35');
+  if(myRange.value == '2') {
+    columnSize.classList.add('col-6');
+  } 
+  var columnSize = document.getElementById('columnSizing36');
+  if(myRange.value == '2') {
+    columnSize.classList.add('col-6');
+  } 
 
   
 
@@ -327,6 +351,49 @@ function changeColumns() {
     columnSize.classList.remove('col-3');
     columnSize.classList.add('col-4');
   } 
+  var columnSize = document.getElementById('columnSizing30');
+  if(myRange.value == '3') {
+    columnSize.classList.remove('col-6');
+    columnSize.classList.remove('col-3');
+    columnSize.classList.add('col-4');
+  } 
+  var columnSize = document.getElementById('columnSizing31');
+  if(myRange.value == '3') {
+    columnSize.classList.remove('col-6');
+    columnSize.classList.remove('col-3');
+    columnSize.classList.add('col-4');
+  }
+  var columnSize = document.getElementById('columnSizing32');
+  if(myRange.value == '3') {
+    columnSize.classList.remove('col-6');
+    columnSize.classList.remove('col-3');
+    columnSize.classList.add('col-4');
+  } 
+  var columnSize = document.getElementById('columnSizing33');
+  if(myRange.value == '3') {
+    columnSize.classList.remove('col-6');
+    columnSize.classList.remove('col-3');
+    columnSize.classList.add('col-4');
+  }
+  var columnSize = document.getElementById('columnSizing34');
+  if(myRange.value == '3') {
+    columnSize.classList.remove('col-6');
+    columnSize.classList.remove('col-3');
+    columnSize.classList.add('col-4');
+  } 
+  var columnSize = document.getElementById('columnSizing35');
+  if(myRange.value == '3') {
+    columnSize.classList.remove('col-6');
+    columnSize.classList.remove('col-3');
+    columnSize.classList.add('col-4');
+  }
+  var columnSize = document.getElementById('columnSizing36');
+  if(myRange.value == '3') {
+    columnSize.classList.remove('col-6');
+    columnSize.classList.remove('col-3');
+    columnSize.classList.add('col-4');
+  } 
+  
   
 
 
@@ -507,7 +574,46 @@ function changeColumns() {
     columnSize.classList.remove('col-4');
     columnSize.classList.add('col-3');
   } 
-  
-
+  var columnSize = document.getElementById('columnSizing30');
+  if(myRange.value == '4') {
+    columnSize.classList.remove('col-6');
+    columnSize.classList.remove('col-4');
+    columnSize.classList.add('col-3');
+  }
+  var columnSize = document.getElementById('columnSizing31');
+  if(myRange.value == '4') {
+    columnSize.classList.remove('col-6');
+    columnSize.classList.remove('col-4');
+    columnSize.classList.add('col-3');
+  } 
+  var columnSize = document.getElementById('columnSizing32');
+  if(myRange.value == '4') {
+    columnSize.classList.remove('col-6');
+    columnSize.classList.remove('col-4');
+    columnSize.classList.add('col-3');
+  }
+  var columnSize = document.getElementById('columnSizing33');
+  if(myRange.value == '4') {
+    columnSize.classList.remove('col-6');
+    columnSize.classList.remove('col-4');
+    columnSize.classList.add('col-3');
+  } 
+  var columnSize = document.getElementById('columnSizing34');
+  if(myRange.value == '4') {
+    columnSize.classList.remove('col-6');
+    columnSize.classList.remove('col-4');
+    columnSize.classList.add('col-3');
+  } 
+  var columnSize = document.getElementById('columnSizing35');
+  if(myRange.value == '4') {
+    columnSize.classList.remove('col-6');
+    columnSize.classList.remove('col-4');
+    columnSize.classList.add('col-3');
+  } 
+  var columnSize = document.getElementById('columnSizing36');
+  if(myRange.value == '4') {
+    columnSize.classList.remove('col-6');
+    columnSize.classList.remove('col-4');
+    columnSize.classList.add('col-3');
+  } 
 }
-
