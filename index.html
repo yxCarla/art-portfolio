@@ -72,7 +72,7 @@
                 <h2 class="head">Works in Progress</h2>
                 
                 <h3 style="font-family: 'Unna';">... there is currently one work in progress ...</h3>
-                <div class="disableSave w3-container w3-card w3-white col-6">
+                <div class="disableSave columnSizing w3-container w3-card w3-white col-6">
                     
                     <img class="w3-image disableSave" src="images/2022_2.jpeg" alt="dinosaur">
                     <p class="title">title, <span class="yearlabel">year</span></p>
@@ -89,7 +89,7 @@
             <div id="cont-1" class="sect" oncontextmenu="return false">
                 <h2 class="head">Pinned Art</h2>
                 <h3 style="font-family: 'Unna';">... my favorite pieces of all time ...</h3>
-                <div class="disableSave w3-container w3-card w3-white col-6">
+                <div class="disableSave columnSizing w3-container w3-card w3-white col-6">
                         
                     <img class="w3-image disableSave" src="images/2021_1.jpeg" alt="peacock">
                     <p class="title">Glaring Peacock, <span class="yearlabel">2021</span></p>
@@ -98,7 +98,7 @@
                     
                     
                 </div>
-                <div class="disableSave w3-container w3-card w3-white col-6">
+                <div class="disableSave columnSizing w3-container w3-card w3-white col-6">
                     <img class="w3-image disableSave" src="images/2020_4.jpg" alt="horse">
                     <p class="title">Horse v3, <span class="yearlabel">2020</span></p>
                     <p><small>Pencil on Paper</small></p>
@@ -116,14 +116,21 @@
                     2 posted works; 2 traditional, 0 digital
                 </h3>
                 <h4 style="font-family: 'Unna';">a landscape phase perhaps...?</h4>
-                <div class="disableSave w3-container w3-card w3-white col-4">
+                <div class="sliding">
+                    <input type="range" min="2" max="4" value="3" class="slider" id="myRange" step="1" oninput="changeColumns()">
+                    <p id="rangeP" style="color: white;">columns: <span id="rangeOutput">3</span></p>
+                </div>
+                
+                
+
+                <div class="disableSave columnSizing w3-container w3-card w3-white col-4" id="columnSizing">
                     <img class="w3-image disableSave" src="images/2022_3.jpg" alt="landscape">
                     <p class="title">Amenia, NY, <span class="yearlabel">2022</span></p>
                     <p><small>Pencil on Paper</small></p>
                     <p><small>completed <b>15 January 2022</b></small></p>
                     
                 </div>
-                <div class="disableSave w3-container w3-card w3-white col-4">
+                <div class="disableSave columnSizing w3-container w3-card w3-white col-4" id="columnSizing2">
                     <img class="w3-image disableSave" src="images/2022_1.jpeg" alt="owl">
                     <p class="title">Who Who, <span class="yearlabel">2022</span></p>
                     <p><small>Pencil on Paper</small></p>
@@ -134,32 +141,38 @@
             </div>
         </section>
 
+        <!--
+
+            next time try to add slider function to adjust pref for columns? maybe..
+
+        -->
+
         <section class="w3-container">
             <div id="cont-3" class="sect" oncontextmenu="return false">
                 <h2 class="head">2021</h2>
                 <h3 style="font-family: 'Unna';">4 posted works; 4 traditional, 0 digital</h3>
-                <div class="disableSave w3-container w3-card w3-white col-4">
+                <div class="disableSave columnSizing w3-container w3-card w3-white col-4" id="columnSizing3">
                     <img class="w3-image disableSave" src="images/2021_4.jpeg" alt="horse">
                     <p class="title">Horse v4, <span class="yearlabel">2021</span></p>
                     <p><small>Pencil on Paper</small></p>
                     <p><small>completed <b>19 June 2021</b></small></p>
                     
                 </div>
-                <div class="disableSave w3-container w3-card w3-white col-4">
+                <div class="disableSave columnSizing w3-container w3-card w3-white col-4" id="columnSizing4">
                     <img class="w3-image disableSave" src="images/2021_1.jpeg" alt="peacock">
                     <p class="title">Glaring Peacock, <span class="yearlabel">2021</span></p>
                     <p><small>Pencil on Paper</small></p>
                     <p><small>completed <b>2 April 2021</b></small></p>
                     
                 </div>
-                <div class="disableSave w3-container w3-card w3-white col-4">
+                <div class="disableSave columnSizing w3-container w3-card w3-white col-4" id="columnSizing5">
                     <img class="w3-image disableSave" src="images/2021_2.jpeg" alt="bird">
                     <p class="title">Magestic Bird, <span class="yearlabel">2021</span></p>
                     <p><small>Pencil on Paper</small></p>
                     <p><small>completed <b>28 March 2021</b></small></p>
                     
                 </div>
-                <div class="disableSave w3-container w3-card w3-white col-4">
+                <div class="disableSave columnSizing w3-container w3-card w3-white col-4" id="columnSizing6">
                     <img class="w3-image disableSave" src="images/2021_5.jpeg" alt="">
                     <p class="title">Stone Container: Recreation, <span class="yearlabel">2021</span></p>
                     <p><small>Pencil on Paper</small></p>
@@ -174,55 +187,55 @@
                 <h2 class="head">2020</h2>
                 <h3 style="font-family: 'Unna';">8 posted works; 6 traditional, 2 digital</h3>
                 <h4 style="font-family: 'Unna';">a short-lasted digital phase</h4>
-                <div class="disableSave w3-container w3-card w3-white col-4">
+                <div class="disableSave columnSizing w3-container w3-card w3-white col-4" id="columnSizing7">
                     <img class="w3-image disableSave" src="images/2020_2_New.jpg" alt="singer">
                     <p class="title">노래, <span class="yearlabel">2020</span></p>
                     <p><small>Pencil on Paper</small></p>
                     <p><small>completed <b>30 November 2020</b></small></p>
                 </div>
-                <div class="disableSave w3-container w3-card w3-white col-4">
+                <div class="disableSave columnSizing w3-container w3-card w3-white col-4" id="columnSizing8">
                     <img class="w3-image disableSave" src="images/2020_3.jpeg" alt="still life">
                     <p class="title">A Still Life, <span class="yearlabel">2020</span></p>
                     <p><small>Pencil on Paper</small></p>
                     <p><small>completed <b>29 October 2020</b></small></p>
                     
                 </div>
-                <div class="disableSave w3-container w3-card w3-white col-4">
+                <div class="disableSave columnSizing w3-container w3-card w3-white col-4" id="columnSizing9">
                     <img class="w3-image disableSave" src="images/2020_6.jpeg" alt="eagle">
                     <p class="title">Businesseagle, <span class="yearlabel">2020</span></p>
                     <p><small>Pencil on Paper</small></p>
                     <p><small>completed <b>18 May 2020</b></small></p>
                     
                 </div>
-                <div class="disableSave w3-container w3-card w3-white col-4">
+                <div class="disableSave columnSizing w3-container w3-card w3-white col-4" id="columnSizing10">
                     <img class="w3-image disableSave" src="images/2020_5.jpeg" alt="dog">
                     <p class="title">Stray Dog, <span class="yearlabel">2020</span></p>
                     <p><small>Pencil on Paper</small></p>
                     <p><small>completed <b>23 April 2020</b></small></p>
                     
                 </div>
-                <div class="disableSave w3-container w3-card w3-white col-4">
+                <div class="disableSave columnSizing w3-container w3-card w3-white col-4" id="columnSizing11">
                     <img class="w3-image disableSave" src="images/2020_1.jpeg" alt="rooster">
                     <p class="title">Roasted, <span class="yearlabel">2020</span></p>
                     <p><small>Pencil on Paper</small></p>
                     <p><small>completed <b>28 March 2020</b></small></p>
                     
                 </div>
-                <div class="disableSave w3-container w3-card w3-white col-4">
+                <div class="disableSave columnSizing w3-container w3-card w3-white col-4"  id="columnSizing12">
                     <img class="w3-image disableSave" src="images/2020_4.jpg" alt="horse">
                     <p class="title">Horse v3, <span class="yearlabel">2020</span></p>
                     <p><small>Pencil on Paper</small></p>
                     <p><small>completed <b>24 February 2020</b></small></p>
                     
                 </div>
-                <div class="disableSave w3-container w3-card w3-white col-6">
+                <div class="disableSave columnSizing w3-container w3-card w3-white col-4"  id="columnSizing13">
                     <img class="w3-image disableSave" src="images/2020_digi_2.jpg" alt="pokemon">
                     <p class="title">Digital Marowak, <span class="yearlabel">2020</span></p>
                     <p><small>Digital on ibisPaintX</small></p>
                     <p><small>completed <b>18 April 2020</b></small></p>
 
                 </div>
-                <div class="disableSave w3-container w3-card w3-white col-6">
+                <div class="disableSave columnSizing w3-container w3-card w3-white col-4"  id="columnSizing14">
                     <img class="w3-image disableSave" src="images/2020_digi.jpg" alt="game avatar">
                     <p class="title">Roblox Avatar, <span class="yearlabel">2020</span></p>
                     <p><small>Digital on ibisPaintX</small></p>
@@ -237,49 +250,49 @@
             <div id="cont-5" class="sect" oncontextmenu="return false">
                 <h2 class="head">2019</h2>
                 <h3 style="font-family: 'Unna';">7 posted works; 7 traditional, 0 digital</h3>
-                <div class="disableSave w3-container w3-card w3-white col-4">
+                <div class="disableSave columnSizing w3-container w3-card w3-white col-4" id="columnSizing15">
                     <img class="w3-image disableSave" src="images/2019_7.jpeg" alt="horse and person">
                     <p class="title">生日快乐, <span class="yearlabel">2019</span></p>
                     <p><small>Pencil on Paper</small></p>
                     <p><small>completed <b>November 2019</b></small></p>
                     
                 </div>
-                <div class="disableSave w3-container w3-card w3-white col-4">
+                <div class="disableSave columnSizing w3-container w3-card w3-white col-4" id="columnSizing16">
                     <img class="w3-image disableSave" src="images/2019_6.jpeg" alt="bridge">
                     <p class="title">Broken Bridge, <span class="yearlabel">2019</span></p>
                     <p><small>Pencil on Paper</small></p>
                     <p><small>completed <b>27 October 2019</b></small></p>
 
                 </div>
-                <div class="disableSave w3-container w3-card w3-white col-4">
+                <div class="disableSave columnSizing w3-container w3-card w3-white col-4" id="columnSizing17">
                     <img class="w3-image disableSave" src="images/2019_5.jpeg" alt="brawl stars">
                     <p class="title">Rico, <span class="yearlabel">2019</span></p>
                     <p><small>Pencil on Paper</small></p>
                     <p><small>completed <b>20 August 2019</b></small></p>
                     
                 </div>
-                <div class="disableSave w3-container w3-card w3-white col-6">
+                <div class="disableSave columnSizing w3-container w3-card w3-white col-4" id="columnSizing18">
                     <img class="w3-image disableSave" src="images/2019_4.jpeg" alt="horse">
                     <p class="title">Horse v2, <span class="yearlabel">2019</span></p>
                     <p><small>Pencil on Paper</small></p>
                     <p><small>completed <b>17 August 2019</b></small></p>
                     
                 </div>
-                <div class="disableSave w3-container w3-card w3-white col-6">
+                <div class="disableSave columnSizing w3-container w3-card w3-white col-4" id="columnSizing19">
                     <img class="w3-image disableSave" src="images/2019_3.jpeg" alt="tiger">
                     <p class="title">Nature's Beast, <span class="yearlabel">2019</span></p>
                     <p><small>Pencil on Paper</small></p>
                     <p><small>completed <b>16 August 2019</b></small></p>
                     
                 </div>
-                <div class="disableSave w3-container w3-card w3-white col-6">
+                <div class="disableSave columnSizing w3-container w3-card w3-white col-4" id="columnSizing20">
                     <img class="w3-image disableSave" src="images/2019_2.jpeg" alt="pokemon">
                     <p class="title">Omanyte, <span class="yearlabel">2019</span></p>
                     <p><small>Pencil on Paper</small></p>
                     <p><small>completed <b>14 August 2019</b></small></p>
                     
                 </div>
-                <div class="disableSave w3-container w3-card w3-white col-6">
+                <div class="disableSave columnSizing w3-container w3-card w3-white col-4" id="columnSizing21">
                     <img class="w3-image disableSave" src="images/2019_1.jpeg" alt="pokemon">
                     <p class="title">Litleo, <span class="yearlabel">2019</span></p>
                     <p><small>Pencil on Paper</small></p>
@@ -293,21 +306,21 @@
             <div id="cont-6" class="sect">
                 <h2 class="head">2018</h2>
                 <h3 style="font-family: 'Unna';">3 posted works; 3 traditional, 0 digital</h3>
-                <div class="disableSave w3-container w3-card w3-white col-4">
+                <div class="disableSave columnSizing w3-container w3-card w3-white col-4" id="columnSizing22">
                     <img class="w3-image disableSave" src="images/2018_1.jpeg" alt="pokemon">
                     <p class="title">Aron in a Cave, <span class="yearlabel">2018</span></p>
                     <p><small>Pencil on Paper</small></p>
                     <p><small>completed <b>10 February 2018</b></small></p>
                     
                 </div>
-                <div class="disableSave w3-container w3-card w3-white col-4">
+                <div class="disableSave columnSizing w3-container w3-card w3-white col-4" id="columnSizing23">
                     <img class="w3-image disableSave" src="images/2018_2.jpeg" alt="spiderman">
                     <p class="title">Spiderman, <span class="yearlabel">2018</span></p>
                     <p><small>Pencil on Paper</small></p>
                     <p><small>completed <b>Spring 2018</b></small></p>
 
                 </div>
-                <div class="disableSave w3-container w3-card w3-white col-4">
+                <div class="disableSave columnSizing w3-container w3-card w3-white col-4" id="columnSizing24">
                     <img class="w3-image disableSave" src="images/2018_3.jpeg" alt="horse">
                     <p class="title">Horse v1, <span class="yearlabel">2018</span></p>
                     <p><small>Pencil on Paper</small></p>
@@ -322,14 +335,14 @@
                 <h2 class="head">2017</h2>
                 <h3 style="font-family: 'Unna';">5 posted works; 5 traditional, 0 digital</h3>
                 <h4 style="font-family: 'Unna';">a lot of pokemon, bear with me</h4>
-                <div class="disableSave w3-container w3-card w3-white col-4">
+                <div class="disableSave columnSizing w3-container w3-card w3-white col-4" id="columnSizing25">
                     <img class="w3-image disableSave" src="images/2017_5.jpeg" alt="pokemon">
                     <p class="title">Marowak, <span class="yearlabel">2017</span></p>
                     <p><small>Pencil on Paper</small></p>
                     <p><small>completed <b>Winter 2017</b></small></p>
                     
                 </div>
-                <div class="disableSave w3-container w3-card w3-white col-4">
+                <div class="disableSave columnSizing w3-container w3-card w3-white col-4" id="columnSizing26">
                     <img class="w3-image disableSave" src="images/2017_4.jpeg" alt="pokemon">
                     <p class="title">Nidoking, <span class="yearlabel">2017</span></p>
                     <p><small>Pencil on Paper</small></p>
@@ -337,21 +350,21 @@
                     
                     
                 </div>
-                <div class="disableSave w3-container w3-card w3-white col-4">
+                <div class="disableSave columnSizing w3-container w3-card w3-white col-4" id="columnSizing27">
                     <img class="w3-image disableSave" src="images/2017_3.jpeg" alt="pokemon">
                     <p class="title">Nidoran, <span class="yearlabel">2017</span></p>
                     <p><small>Pencil on Paper</small></p>
                     <p><small>completed <b>October 2017</b></small></p>
                     
                 </div>
-                <div class="disableSave w3-container w3-card w3-white col-4">
+                <div class="disableSave columnSizing w3-container w3-card w3-white col-4" id="columnSizing28">
                     <img class="w3-image disableSave" src="images/2017_2.jpeg" alt="pokemon">
                     <p class="title">Nidoqueen, <span class="yearlabel">2017</span></p>
                     <p><small>Pencil on Paper</small></p>
                     <p><small>completed <b>October 2017</b></small></p>
                     
                 </div>
-                <div class="disableSave w3-container w3-card w3-white col-4">
+                <div class="disableSave columnSizing w3-container w3-card w3-white col-4" id="columnSizing29">
                     <img class="w3-image disableSave" src="images/2017_1.jpeg" alt="bird">
                     <p class="title">Bird, <span class="yearlabel">2017</span></p>
                     <p><small>Pencil on Paper</small></p>
@@ -365,14 +378,14 @@
             <div id="cont-8" class="sect">
                 <h2 class="head">2016</h2>
                 <h3 style="font-family: 'Unna';">2 posted works; 2 traditional, 0 digital</h3>
-                <div class="disableSave w3-container w3-card w3-white col-6">
+                <div class="disableSave columnSizing w3-container w3-card w3-white col-6">
                     <img class="w3-image disableSave" src="images/2016_4.jpeg" alt="pokemon">
                     <p class="title">Throh, <span class="yearlabel">2016</span></p>
                     <p><small>Pencil on Paper</small></p>
                     <p><small>completed <b>early 2016</b></small></p>
                     
                 </div>
-                <div class="disableSave w3-container w3-card w3-white col-6">
+                <div class="disableSave columnSizing w3-container w3-card w3-white col-6">
                     <img class="w3-image disableSave" src="images/2016_3.jpeg" alt="pokemon">
                     <p class="title">Sawk, <span class="yearlabel">2016</span></p>
                     <p><small>Pencil on Paper</small></p>
@@ -387,14 +400,14 @@
             <div id="cont-10" class="sect" oncontextmenu="return false">
                 <h2 class="head">2015</h2>
                 <h3 style="font-family: 'Unna';">2 posted works; 2 traditional, 0 digital</h3>
-                <div class="disableSave w3-container w3-card w3-white col-6">
+                <div class="disableSave columnSizing w3-container w3-card w3-white col-6">
                     <img class="w3-image disableSave" src="images/2016_2.jpeg" alt="stuffed animals">
                     <p class="title">Stuffed Animals, <span class="yearlabel">2015</span></p>
                     <p><small>Pencil on Paper</small></p>
                     <p><small>completed <b>Fall 2015</b></small></p>
                     <p><small>artist's note: also special! was inspired by a teacher to continue drawing</small></p>
                 </div>
-                <div class="disableSave w3-container w3-card w3-white col-6">
+                <div class="disableSave columnSizing w3-container w3-card w3-white col-6">
                     <img class="w3-image disableSave" src="images/2016_1.jpeg" alt="mickey mouse">
                     <p class="title">Mickey Mouse, <span class="yearlabel">2015</span></p>
                     <p><small>Pencil, Marker on Paper</small></p>
