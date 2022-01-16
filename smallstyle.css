@@ -38,6 +38,9 @@
         padding: 14px 13px;
         font-size: 12px;
     }
+    .sliding {
+        display: none;
+    }
 }
 
 /* size down for smaller mobile landscape mode */
@@ -52,5 +55,8 @@
     .navlink {
         padding: 10px 10px;
         font-size: 8px;
+    }
+    .sliding {
+        display: none;
     }
 }
