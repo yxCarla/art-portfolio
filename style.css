@@ -203,4 +203,20 @@ p {
     pointer-events: none;
 }
 
+#contactbox {
+    font-family: 'Unna'; width: 75%; margin: 0 auto 0 auto;
+    display: none;
+}
+#materialBox {
+    font-family: 'Unna'; width: 75%; margin: 0 auto 0 auto;
+    display: none;
+}
+
+.button {
+    width: fit-content;
+    margin: 0 auto 0 auto;
+    font-size: 92%;
+}
+
+
 

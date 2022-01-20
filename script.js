@@ -26,6 +26,33 @@ function checkNav() {
     }
 }
 
+function showContact() {
+  let contactbox = document.getElementById('contactbox');
+  let buttondescription = document.getElementById('buttondescC');
+  if (contactbox.style.display == "block") {
+    contactbox.style.display = 'none';
+    buttondescription.innerHTML = 'click to expand';
+  }
+  else {
+    contactbox.style.display = 'block';
+    buttondescription.innerHTML = 'click to collapse';
+  }
+}
+
+function showMaterials() {
+  let materialbox = document.getElementById('materialBox');
+  let buttondescription = document.getElementById('buttondescM');
+  if (materialbox.style.display == "block") {
+    materialbox.style.display = 'none';
+    buttondescription.innerHTML = 'click to expand';
+  }
+  else {
+    materialbox.style.display = 'block';
+    buttondescription.innerHTML = 'click to collapse';
+  }
+}
+
+
 function changeColumns() {
   var rangeOutput = document.getElementById('rangeOutput');
   rangeOutput.innerHTML = myRange.value;
