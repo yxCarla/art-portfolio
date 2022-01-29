@@ -9,11 +9,11 @@ function openNav() {
 
 function closeNav() {
   var links = document.getElementById("myLinks");
-    if (links.style.display === "none") {
-      links.style.display = "block";
-    } else {
+    //if (links.style.display === "none") {
+    //  links.style.display = "block";
+    //} else {
       links.style.display = "none";
-    }
+    //}
 }
 
 function checkNav() {
