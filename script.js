@@ -198,6 +198,7 @@ function changeColumns() {
   if(myRange.value == '2') {
     columnSize.classList.add('col-6');
   } 
+  
 
   
 
