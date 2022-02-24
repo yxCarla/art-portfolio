@@ -41,6 +41,9 @@
         font-size: 9px;
         padding: 11px 12px;
     }
+    .sliding {
+        display: none;
+    }
 }
 
 
@@ -51,9 +54,22 @@
     
 }
 
+
 body {
     
     background-color: rgb(255, 242, 227);
+}
+button {
+    cursor: pointer;
+    font-family: 'Roboto';
+    color: rgb(51, 48, 221);
+    border-color: rgb(51, 48, 221);
+}
+button:hover {
+    border-color: white;
+    color: white;
+    background-color: rgb(51, 48, 221);
+    transition: 0.6s;
 }
 
 .sliding {

@@ -1,3 +1,7 @@
+.sliding {
+    display: none;
+}
+
 /* smaller than laptop */
 
 @media screen and (orientation: landscape) {
@@ -19,13 +23,13 @@
     }
 }
 /* slider disabled for portrait mobile */
-@media screen and (max-width: 900px) and (orientation: portrait){
+@media screen and (max-width: 1000px) and (orientation: portrait){
     .sliding {
         display: none;
     }
 }
 
-/* for ipad ;arge portrait */
+/* for ipad large portrait */
 @media screen and (min-height: 1000px) and (orientation: portrait){
     #wipsSty {
         margin-top: 4.5vh;
