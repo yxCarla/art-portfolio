@@ -52,6 +52,13 @@ function showMaterials() {
   }
 }
 
+function checkMobile() {
+  var size = document.getElementById('type');
+  if (window.screen.width < 767) {
+    size.classList.remove('typewriter');
+  }
+}
+
 
 function changeColumns() {
   var rangeOutput = document.getElementById('rangeOutput');
