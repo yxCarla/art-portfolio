@@ -198,7 +198,14 @@ function changeColumns() {
   if(myRange.value == '2') {
     columnSize.classList.add('col-6');
   } 
-  
+  var columnSize = document.getElementById('columnSizing37');
+  if(myRange.value == '2') {
+    columnSize.classList.add('col-6');
+  } 
+  var columnSize = document.getElementById('columnSizing38');
+  if(myRange.value == '2') {
+    columnSize.classList.add('col-6');
+  } 
 
   
 
@@ -416,6 +423,18 @@ function changeColumns() {
     columnSize.classList.add('col-4');
   }
   var columnSize = document.getElementById('columnSizing36');
+  if(myRange.value == '3') {
+    columnSize.classList.remove('col-6');
+    columnSize.classList.remove('col-3');
+    columnSize.classList.add('col-4');
+  } 
+  var columnSize = document.getElementById('columnSizing37');
+  if(myRange.value == '3') {
+    columnSize.classList.remove('col-6');
+    columnSize.classList.remove('col-3');
+    columnSize.classList.add('col-4');
+  } 
+  var columnSize = document.getElementById('columnSizing38');
   if(myRange.value == '3') {
     columnSize.classList.remove('col-6');
     columnSize.classList.remove('col-3');
@@ -639,6 +658,18 @@ function changeColumns() {
     columnSize.classList.add('col-3');
   } 
   var columnSize = document.getElementById('columnSizing36');
+  if(myRange.value == '4') {
+    columnSize.classList.remove('col-6');
+    columnSize.classList.remove('col-4');
+    columnSize.classList.add('col-3');
+  } 
+  var columnSize = document.getElementById('columnSizing37');
+  if(myRange.value == '4') {
+    columnSize.classList.remove('col-6');
+    columnSize.classList.remove('col-4');
+    columnSize.classList.add('col-3');
+  } 
+  var columnSize = document.getElementById('columnSizing38');
   if(myRange.value == '4') {
     columnSize.classList.remove('col-6');
     columnSize.classList.remove('col-4');
