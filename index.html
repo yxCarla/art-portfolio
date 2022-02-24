@@ -18,7 +18,7 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
         <script src="script.js" defer></script>
     </head>
-    <body onscroll="checkNav()">
+    <body onscroll="checkNav()"  onload="checkMobile()">
         <div class="topnav" style="font-family: 'Arima Madurai';" >
             <div class="w3-top">
                 <div class="w3-bar w3-indigo w3-card" >
@@ -57,9 +57,9 @@
 
         <div id="headings">
             <div class="mains">
-            <div class="typewriter">
-                <h1 style="font-weight: bold; font-family: 'Luxurious Roman';">Welcome To Carla's Art Portfolio</h1>
-            </div>
+                <div class="typewriter" id="type">
+                    <h1 style="font-weight: bold; font-family: 'Luxurious Roman';">Welcome To Carla's Art Portfolio</h1>
+                </div>
             </div>
             <h3 style="font-family: 'Unna';">(website built entirely from scratch)</h3>
             <h3 style="width: 60%; margin: 0 auto 0 auto; font-family: 'Unna';">In this site I will have my artwork displayed dating from 2015 to present (2022). Most of these are traditional
