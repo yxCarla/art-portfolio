@@ -307,6 +307,13 @@ function changeColumns() {
     columnSize.classList.remove('col-4');
 
   } 
+  var columnSize = document.getElementById('columnSizing41');
+  if(myRange.value == '2') {
+    columnSize.classList.add('col-6');
+    columnSize.classList.remove('col-3');
+    columnSize.classList.remove('col-4');
+
+  } 
 
   
 
@@ -548,6 +555,12 @@ function changeColumns() {
     columnSize.classList.add('col-4');
   } 
   var columnSize = document.getElementById('columnSizing40');
+  if(myRange.value == '3') {
+    columnSize.classList.remove('col-6');
+    columnSize.classList.remove('col-3');
+    columnSize.classList.add('col-4');
+  } 
+  var columnSize = document.getElementById('columnSizing41');
   if(myRange.value == '3') {
     columnSize.classList.remove('col-6');
     columnSize.classList.remove('col-3');
@@ -795,6 +808,12 @@ function changeColumns() {
     columnSize.classList.add('col-3');
   } 
   var columnSize = document.getElementById('columnSizing40');
+  if(myRange.value == '4') {
+    columnSize.classList.remove('col-6');
+    columnSize.classList.remove('col-4');
+    columnSize.classList.add('col-3');
+  } 
+  var columnSize = document.getElementById('columnSizing41');
   if(myRange.value == '4') {
     columnSize.classList.remove('col-6');
     columnSize.classList.remove('col-4');
